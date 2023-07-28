@@ -1,0 +1,7 @@
+conda create --name rl_env python=3.8
+conda activate rl_env
+conda install pyopengl pytorch==1.6 pandas numpy tqdm jupyter seaborn scikit-learn
+pip install setuptools==65.5.0 "wheel<0.40.0"
+pip install gym==0.21.0
+pip install pyglet==1.5.27
+
